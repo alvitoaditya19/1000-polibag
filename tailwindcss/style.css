@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+html, body {
+  font-family: "Poppins";
+  font-style: normal;
+  background-color: #F8F8FA;
+  overflow-x: hidden;
+  position: relative;
+}
+.title-welcome {
+  background: linear-gradient(
+    270deg,
+    #f11edc -3.99%,
+    #cf1cde 41.2%,
+    #4c13f1 73.68%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
